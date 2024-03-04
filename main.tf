@@ -1,3 +1,3 @@
 resource "aws_security_group" "example" {
-  name   = "sg"
+  name   = var.sg_name
 }

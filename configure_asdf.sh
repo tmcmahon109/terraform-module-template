@@ -12,3 +12,6 @@ fi
 # Restart Shell
 /bin/echo "Restarting shell"
 exec zsh -l
+
+# Installing plugins
+ /bin/zsh install_plugins.sh

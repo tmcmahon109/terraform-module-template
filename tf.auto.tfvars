@@ -1,0 +1,1 @@
+sg_name = "variable_test"
