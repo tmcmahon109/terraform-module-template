@@ -25,6 +25,6 @@ func TestTerraformSecurityGroup(t *testing.T) {
 	terraform.InitAndApply(t, terraformOptions)
 
 	// website::tag::4:: Run `terraform output` to get the ID of the SG
-	sgId := terraform.Output(t, terraformOptions, "sg_id")
-	assert.Equal(t, "variable_test", sgId)
+	sgName := terraform.Output(t, terraformOptions, "sg_name")
+	assert.Equal(t, "variable_test", sgName)
 }

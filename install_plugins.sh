@@ -12,5 +12,5 @@ asdf plugin-add tfc-agent https://github.com/asdf-community/asdf-hashicorp.git
 asdf plugin-add vault https://github.com/asdf-community/asdf-hashicorp.git
 asdf plugin-add waypoint https://github.com/asdf-community/asdf-hashicorp.git
 
-# Install terraform
+# Install all tools from the .tools-versions file.
 asdf install
