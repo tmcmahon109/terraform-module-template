@@ -2,7 +2,7 @@
 if [ -f $HOME/.asdf/asdf.sh ]; then
     /bin/echo 'File exists...skipping'
 else
-    /usr/bin/git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+    /usr/bin/git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.15.0
 fi
 
 # Add to zshrc if using mac
